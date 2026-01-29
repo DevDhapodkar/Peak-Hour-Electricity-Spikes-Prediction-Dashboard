@@ -44,8 +44,8 @@ This project provides an end-to-end solution for collecting, processing, and vis
    Open your browser and go to [http://127.0.0.1:8050/](http://127.0.0.1:8050/).
 
 ## 📊 Dashboard Preview
-![Dashboard Main](screenshots/dashboard_main.png)
-![Dashboard Bottom](screenshots/dashboard_bottom.png)
+![Skeuomorphic Dashboard Main](screenshots/skeuo_main.png)
+![Skeuomorphic Dashboard Bottom](screenshots/skeuo_bottom.png)
 
 The dashboard displays:
 - **Predicted Evening Peaks**: Real-time forecast for each dorm.

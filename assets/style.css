@@ -1,0 +1,82 @@
+:root {
+    /* Neumorphic/Skeuomorphic Color Palette */
+    --bg-color: #e0e5ec;
+    --text-color: #44476a;
+    --primary-color: #00bc8c;
+    --shadow-light: #ffffff;
+    --shadow-dark: #a3b1c6;
+    --inset-shadow-light: inset 2px 2px 5px #a3b1c6, inset -5px -5px 10px #ffffff;
+    --outset-shadow: 9px 9px 16px #a3b1c6, -9px -9px 16px #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.skeuo-container {
+    background-color: var(--bg-color);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.skeuo-card {
+    background-color: var(--bg-color);
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: var(--outset-shadow);
+    border: none;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+.skeuo-card:hover {
+    box-shadow: 12px 12px 20px #a3b1c6, -12px -12px 20px #ffffff;
+}
+
+.skeuo-title {
+    color: var(--text-color);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.skeuo-stat-value {
+    color: var(--primary-color);
+    font-weight: 900;
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.skeuo-dropdown {
+    border-radius: 15px !important;
+    background-color: var(--bg-color) !important;
+    box-shadow: inset 3px 3px 6px #a3b1c6, inset -3px -3px 6px #ffffff !important;
+    border: none !important;
+    padding: 5px !important;
+}
+
+.skeuo-dropdown .Select-control {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.skeuo-dropdown .Select-value-label {
+    color: var(--text-color) !important;
+}
+
+/* Custom classes for spacing and typography */
+.text-skeuo-muted {
+    color: #7a829c;
+    font-size: 0.9rem;
+}
+
+.skeuo-graph-container {
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: var(--inset-shadow-light);
+    background-color: var(--bg-color);
+}
